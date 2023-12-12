@@ -11,8 +11,8 @@ export default {
         backgroundColor: "#8b997f",
       },
       backgroundImage: {
-        'home': "url('/src/assets/img/hometea.jpg')",
-        'about': "url('/src/assets/img/aboutbg.jpg')",
+        'home': "url('/assets/img/hometea.jpg')",
+        'about': "url('/assets/img/aboutbg.jpg')",
       }
     },
   },
