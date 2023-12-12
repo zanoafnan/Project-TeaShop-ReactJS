@@ -4,8 +4,8 @@ import Button from "../layouts/Button";
 
 const About = () => {
   return (
-    <div className=" min-h-screen  flex flex-col items-center lg:justify-center lg:px-32 px-5 bg-about bg-cover ">
-      <h1 className="  font-semibold text-center text-5xl lg:mt- mb-12">About Us</h1>
+    <div className=" min-h-screen  flex flex-col  items-center justify-center lg:px-32 px-5 bg-about bg-cover ">
+      <h1 className="  font-semibold text-center text-5xl mt-1 mb-10">About Us</h1>
       
       <div className=" flex flex-col lg:flex-row items-center gap-12 mt-10">
         
