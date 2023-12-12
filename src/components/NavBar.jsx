@@ -99,7 +99,7 @@ const NavBar = () => {
         <div
           className={` ${
             menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-black text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          } lg:hidden flex flex-col absolute bg-gradient-to-r from-backgroundColor to-[#627355] text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to="home"
@@ -152,7 +152,7 @@ const NavBar = () => {
             Reviews
           </Link>
 
-          <Button title="login" />
+          <Button title="Login" />
         </div>
       </div>
     </div>
