@@ -26,16 +26,6 @@ const Footer = () => {
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
             <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="group relative inline-block cursor-pointer hover:text-[#dae6cf]"
-            >
-              About Us
-              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-            </Link>
-            <Link
               to="products"
               spy={true}
               smooth={true}
@@ -53,6 +43,16 @@ const Footer = () => {
               className="group relative inline-block cursor-pointer hover:text-[#dae6cf]"
             >
               Reviews
+              <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="group relative inline-block cursor-pointer hover:text-[#dae6cf]"
+            >
+              About Us
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
             </Link>
           </nav>
